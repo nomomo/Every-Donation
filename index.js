@@ -146,6 +146,10 @@ async function main(){
                 
             });
             
+            socketAfreehp.on("pagecmd", function(){
+                console.log("pagecmd", arguments);
+            });
+
             socketAfreehp.on("error", function(){
                 console.error("Afreehp error");
             });
@@ -384,7 +388,7 @@ async function main(){
                 });
             });
             
-            toonAtClient.connect("wss://toon.at:8071/"+settings.toonat.payload);
+            toonAtClient.connect("wss://ws.toon.at/"+settings.toonat.payload);
         }
 
         

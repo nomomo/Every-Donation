@@ -40,6 +40,10 @@
 
 ## Change Logs
 
+### 1.0.5 (May 29, 2024)
+
+- Toonation websocket 주소 변경
+
 ### 1.0.4 (Jul. 4, 2023)
 
 - Afreehp 의 cmd 외 모든 이벤트를 받아올 수 있는 코드 추가
